@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="scrip.js"defer></script>
+
     <title>Document</title>
+    
 </head>
 
 
 
     <body>
-        <div id="contenedor">
+       <div id="contenedor">
             <div id="calculadora">
-                <div class="contenido">
+
                     <h1>Hidratación Basal</h1>
-                    <p >Completa todos los datos</p>
-                    <input type="number" placeholder="Peso en kg" />
-                    <p>* Debe completar todos los datos</p>
-                    <button>Calcular</button>
-                    <p>71cc/h</p>
-                    <p>m+m/2 : 105cc/h</p>
+                    <p id="mensaje" >Completa todos los datos</p>
+                    <input id="peso" type="number"/>
+                    <button id="calcular">Calcular</button>
+                    <p class="item resultado" id="volumen"> 1680 cc/dia</p>
+                    <p class="item resultado"id="mantenimiento">70 cc/hora</p>    
                 </div>
-            </div>
+
             <div id="detalle">
                 <div class="contenido">
                     <h1>¿Como se calcula?</h1>
